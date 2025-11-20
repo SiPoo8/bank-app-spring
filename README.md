@@ -44,32 +44,6 @@ GRANT ALL PRIVILEGES ON bankdb.* TO 'bankuser'@'localhost';
 FLUSH PRIVILEGES;
 
 
----
-
-## Project Structure
-
-```
-src/main/java/com/sipoo8/bankapp
-│
-├── controller
-│   ├── UserController.java
-│   ├── AccountController.java
-│   └── TransactionController.java
-│
-├── entity
-│   ├── User.java
-│   ├── Account.java
-│   └── Transaction.java
-│
-├── repository
-│   ├── UserRepository.java
-│   ├── AccountRepository.java
-│   └── TransactionRepository.java
-│
-├── service
-│   └── TransactionService.java
-│
-└── BankAppSpringApplication.java
 ```
 
 ---
